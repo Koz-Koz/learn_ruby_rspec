@@ -13,6 +13,7 @@
 # In floating point math, there **are** fractions. So...
 #
 #    1.0 / 2.0 => 0.5
+
 #
 
 require "temperature"
@@ -22,7 +23,7 @@ describe "temperature conversion functions" do
   describe "#ftoc" do
 
     it "converts freezing temperature" do
-      expect(ftoc(32)).to eq(0)
+      expect(ftoc(32)).to eq(0)# attend que --> retourne 0
     end
 
     it "converts boiling temperature" do
